@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aporte.Concurso">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Concurso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aporte.Laboratorios">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <AssociationLine Name="Estudiante" Type="Aporte.Estudiante" ManuallyRouted="true">
+      <Path>
+        <Point X="8.5" Y="3.5" />
+        <Point X="6.794" Y="3.5" />
+        <Point X="6.794" Y="2.954" />
+        <Point X="6.688" Y="2.954" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.173" Y="-0.586" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAACA=</HashCode>
+      <FileName>Laboratorios.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Estudiante" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Aporte.SoftwareLista">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAACACA=</HashCode>
+      <FileName>SoftwareLista.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Estudiante" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Aporte.Estudiante">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAEAEAAgAAACAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estudiante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aporte.CategoriaConcurso">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <AssociationLine Name="Estudiante" Type="Aporte.Estudiante">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.089" Y="0.539" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAIAAAAAAAAIAAAAAAAAAAAACAAAEACA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Estudiante" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
